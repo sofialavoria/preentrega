@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1, 
+        "nombre": "Mix Premium", 
+        "precio": 560, 
+        "stock": 10 ,
+        "img" : "mixpremium.jpg"
+ 
+    },
+    {
+        "id": 1, 
+        "nombre": "Mix Tropical", 
+        "precio": 420, 
+        "stock": 10,
+        "img" : "mixtropical.jpg"
+
+    },
+    {
+        "id": 1, 
+        "nombre": "Mix Premium con chips de banana", 
+        "precio": 530, 
+        "stock": 10,
+        "img" : "mixpremchips.jpg"
+    }
+]

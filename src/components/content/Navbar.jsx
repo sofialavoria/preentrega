@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import Dropdown from './Dropdown';
 import Secciones from './Secciones';
 
@@ -13,11 +14,11 @@ const Navbar = () => {
               <Secciones/>
               <Dropdown lista = {listDrowdon}/>
             </ul>
-            <form className="d-flex">
-                <input className="form-control me-sm-2" type="text" placeholder="Search" />
-                <button className="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
             </div>
+            <ul className="nav-item">
+            <Link className="nav-link active" to="/carrito">Carrito</Link>
+            </ul>
+
             </div>
           </nav>
         </>
